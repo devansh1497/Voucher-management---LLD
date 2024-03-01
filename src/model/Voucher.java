@@ -31,10 +31,6 @@ public abstract class Voucher {
         return rules;
     }
 
-    @Override
-    public String toString() {
-        return "Voucher{" +
-                "content='" + content + '\'' +
-                '}';
-    }
+
+
 }

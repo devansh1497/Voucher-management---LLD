@@ -1,13 +1,12 @@
 import model.*;
 import rules.LessThanAgeRule;
-import rules.MoreThanCartValue;
+import rules.MoreThanCartValueRule;
 import rules.Rule;
 import service.UserService;
 import storage.InMemory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.UUID;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -18,7 +17,7 @@ public class Main {
         User u1 = new User(20,"devansh singh");
 
         Rule r1 = new LessThanAgeRule(21);
-        Rule r2 = new MoreThanCartValue(500.00);
+        Rule r2 = new MoreThanCartValueRule(500.00);
 
         Product p1 = new Product("p1", 501);
 

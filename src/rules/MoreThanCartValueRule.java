@@ -3,11 +3,11 @@ package rules;
 import model.User;
 import model.Voucher;
 
-public class MoreThanCartValue implements Rule {
+public class MoreThanCartValueRule implements Rule {
 
     private double cartValue;
 
-    public MoreThanCartValue(double cartValue) {
+    public MoreThanCartValueRule(double cartValue) {
         this.cartValue = cartValue;
     }
 
